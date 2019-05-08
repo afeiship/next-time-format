@@ -8,5 +8,9 @@ npm install -S afeiship/next-time-format --registry=https://registry.npm.taobao.
 
 ## usage
 ```js
-//DOCS here!
+import 'next-time-format';
+
+// micro
+nx.timeFormat(354*1000);
+// { hour: 0, minute: 5, second: 54 }
 ```
