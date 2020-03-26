@@ -1,14 +1,14 @@
 # next-time-format
-> Time format for next
+> Time format for next.
 
 ## installation
 ```bash
-npm install -S afeiship/next-time-format --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-time-format
 ```
 
 ## usage
 ```js
-import 'next-time-format';
+import '@feizheng/next-time-format';
 
 // micro
 nx.timeFormat(354*1000);
