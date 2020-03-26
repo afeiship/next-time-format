@@ -9,5 +9,6 @@ describe('api.basic test', () => {
     expect(rs1.hour).toBe(0);
     expect(rs1.minute).toBe(1);
     expect(rs1.second).toBe(1);
+    expect(rs1.datetime).toBe('00:01:01');
   });
 });
