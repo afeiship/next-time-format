@@ -2,8 +2,8 @@
  * name: @feizheng/next-time-format
  * description: Time format for next.
  * url: https://github.com/afeiship/next-time-format
- * version: 1.0.1
- * date: 2020-03-27 00:16:17
+ * version: 1.0.2
+ * date: 2020-03-27 11:05:27
  * license: MIT
  */
 
