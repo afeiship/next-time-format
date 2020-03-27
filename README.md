@@ -14,3 +14,6 @@ import '@feizheng/next-time-format';
 nx.timeFormat(354*1000);
 // { hour: 0, minute: 5, second: 54, datetime:'00:05:54' }
 ```
+
+## resources
+- https://stackoverflow.com/questions/19700283/how-to-convert-time-milliseconds-to-hours-min-sec-format-in-javascript/51155695
