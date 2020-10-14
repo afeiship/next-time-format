@@ -2,7 +2,7 @@ const nx = require('@feizheng/next-js-core2');
 require('../src/next-time-format');
 
 describe('api.basic test', () => {
-  test('nx.timeFormat h/m/s', function() {
+  test('nx.timeFormat h/m/s', function () {
     var time1 = 61 * 1000;
     var res = nx.timeFormat(time1);
     expect(res.hour).toBe(0);
@@ -11,7 +11,7 @@ describe('api.basic test', () => {
     expect(res.datetime).toBe('00:01:01');
   });
 
-  test('nx.timeFormat long time', function() {
+  test('nx.timeFormat long time', function () {
     var time1 = 3 * 60 * 64 * 1000;
     var res = nx.timeFormat(time1);
     expect(res.datetime).toBe('03:12:00');

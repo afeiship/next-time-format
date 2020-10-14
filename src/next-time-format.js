@@ -1,9 +1,10 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var pad = function(value) { return ('' + value).padStart(2, '0'); };
+  /* prettier-ignore */
+  var pad = function (value) { return ('' + value).padStart(2, '0'); };
 
-  nx.timeFormat = function(inTimestamp) {
+  nx.timeFormat = function (inTimestamp) {
     var millisecond = parseInt((inTimestamp % 1000) / 100),
       second = Math.floor((inTimestamp / 1000) % 60),
       minute = Math.floor((inTimestamp / (1000 * 60)) % 60),
