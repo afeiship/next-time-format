@@ -8,7 +8,7 @@
     var millisecond = parseInt((inTimestamp % 1000) / 100),
       second = Math.floor((inTimestamp / 1000) % 60),
       minute = Math.floor((inTimestamp / (1000 * 60)) % 60),
-      hour = Math.floor((inTimestamp / (1000 * 60 * 60)) % 24);
+      hour = Math.floor(inTimestamp / (1000 * 60 * 60));
 
     return {
       hour: hour,

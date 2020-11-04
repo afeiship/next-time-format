@@ -12,8 +12,8 @@ describe('api.basic test', () => {
   });
 
   test('nx.timeFormat long time', function () {
-    var time1 = 3 * 60 * 64 * 1000;
+    var time1 = 50 * 3600 * 1000 + 6 * 3600 * 1000 + 5 * 60 * 1000 + 7 * 1000;
     var res = nx.timeFormat(time1);
-    expect(res.datetime).toBe('03:12:00');
+    expect(res.datetime).toBe('56:05:07');
   });
 });

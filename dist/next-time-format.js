@@ -2,8 +2,8 @@
  * name: @feizheng/next-time-format
  * description: Time format for next.
  * homepage: https://github.com/afeiship/next-time-format
- * version: 1.0.4
- * date: 2020-10-14T01:30:21.453Z
+ * version: 1.0.5
+ * date: 2020-11-04T23:50:10.373Z
  * license: MIT
  */
 
@@ -17,7 +17,7 @@
     var millisecond = parseInt((inTimestamp % 1000) / 100),
       second = Math.floor((inTimestamp / 1000) % 60),
       minute = Math.floor((inTimestamp / (1000 * 60)) % 60),
-      hour = Math.floor((inTimestamp / (1000 * 60 * 60)) % 24);
+      hour = Math.floor(inTimestamp / (1000 * 60 * 60));
 
     return {
       hour: hour,
