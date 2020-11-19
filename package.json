@@ -36,5 +36,15 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "time",
+    "format",
+    "date",
+    "left",
+    "hour",
+    "minute",
+    "second"
+  ]
 }

@@ -3,7 +3,7 @@
  * description: Time format for next.
  * homepage: https://github.com/afeiship/next-time-format
  * version: 1.0.0
- * date: 2020-11-19 13:16:56
+ * date: 2020-11-19 13:17:50
  * license: MIT
  */
 
