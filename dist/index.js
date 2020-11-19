@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-time-format
+ * description: Time format for next.
+ * homepage: https://github.com/afeiship/next-time-format
+ * version: 1.0.0
+ * date: 2020-11-19 13:16:56
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   /* prettier-ignore */
   var pad = function (value) { return ('' + value).padStart(2, '0'); };
 
