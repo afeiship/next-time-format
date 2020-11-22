@@ -13,7 +13,7 @@ npm install -S @jswork/next-time-format
 
 ## usage
 ```js
-import '@feizheng/next-time-format';
+import '@jswork/next-time-format';
 
 // micro
 nx.timeFormat(354*1000);
