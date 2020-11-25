@@ -3,7 +3,7 @@
  * description: Time format for next.
  * homepage: https://github.com/afeiship/next-time-format
  * version: 1.0.0
- * date: 2020-11-19 13:17:50
+ * date: 2020-11-25 15:25:29
  * license: MIT
  */
 
@@ -14,7 +14,7 @@
   var pad = function (value) { return ('' + value).padStart(2, '0'); };
 
   nx.timeFormat = function (inTimestamp) {
-    var millisecond = parseInt((inTimestamp % 1000) / 100),
+    var millisecond = parseInt(inTimestamp % 1000),
       second = Math.floor((inTimestamp / 1000) % 60),
       minute = Math.floor((inTimestamp / (1000 * 60)) % 60),
       hour = Math.floor(inTimestamp / (1000 * 60 * 60));

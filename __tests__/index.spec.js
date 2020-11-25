@@ -16,5 +16,16 @@
       var res = nx.timeFormat(time1);
       expect(res.datetime).toBe('56:05:07');
     });
+    test('nx.timeFormat with millsecond', () => {
+      var time = 4066;
+      var res = nx.timeFormat(time);
+      expect(res).toEqual({
+        hour: 0,
+        minute: 0,
+        second: 4,
+        millisecond: 66,
+        datetime: '00:00:04'
+      });
+    });
   });
 })();

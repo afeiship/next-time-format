@@ -18,6 +18,16 @@ import '@jswork/next-time-format';
 // micro
 nx.timeFormat(354*1000);
 // { hour: 0, minute: 5, second: 54, datetime:'00:05:54' }
+
+
+nx.timeFormat(4066);
+{
+  hour: 0,
+  minute: 0,
+  second: 4,
+  millisecond: 66,
+  datetime: '00:00:04'
+}
 ```
 
 ## license
