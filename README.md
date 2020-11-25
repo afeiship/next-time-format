@@ -21,6 +21,8 @@ nx.timeFormat(354*1000);
 
 
 nx.timeFormat(4066);
+
+/*
 {
   hour: 0,
   minute: 0,
@@ -28,6 +30,7 @@ nx.timeFormat(4066);
   millisecond: 66,
   datetime: '00:00:04'
 }
+*/
 ```
 
 ## license
