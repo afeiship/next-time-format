@@ -2,8 +2,8 @@
  * name: @jswork/next-time-format
  * description: Time format for next.
  * homepage: https://github.com/afeiship/next-time-format
- * version: 1.0.0
- * date: 2020-11-25 15:25:29
+ * version: 1.0.1
+ * date: 2020-11-25 15:27:21
  * license: MIT
  */
 
