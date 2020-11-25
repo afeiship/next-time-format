@@ -21,7 +21,6 @@ nx.timeFormat(354*1000);
 
 
 nx.timeFormat(4066);
-
 /*
 {
   hour: 0,
