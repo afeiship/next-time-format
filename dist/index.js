@@ -2,13 +2,13 @@
  * name: @jswork/next-time-format
  * description: Time format for next.
  * homepage: https://github.com/afeiship/next-time-format
- * version: 1.0.1
- * date: 2020-11-25 15:27:21
+ * version: 1.0.2
+ * date: 2021-01-06 22:42:23
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   /* prettier-ignore */
   var pad = function (value) { return ('' + value).padStart(2, '0'); };
