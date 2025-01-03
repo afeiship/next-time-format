@@ -14,18 +14,23 @@
     test('nx.timeFormat long time', function () {
       var time1 = 50 * 3600 * 1000 + 6 * 3600 * 1000 + 5 * 60 * 1000 + 7 * 1000;
       var res = nx.timeFormat(time1);
-      expect(res.datetime).toBe('56:05:07');
+      expect(res.datetime).toBe('08:05:07');
     });
+
     test('nx.timeFormat with millsecond', () => {
-      var time = 4066;
+      var time = 1432323066;
       var res = nx.timeFormat(time);
-      expect(res).toEqual({
-        hour: 0,
-        minute: 0,
-        second: 4,
-        millisecond: 66,
-        datetime: '00:00:04'
-      });
+      // console.log('res: ', res);
+      expect(res).toEqual(
+        {
+          day: 16,
+          hour: 13,
+          minute: 52,
+          second: 3,
+          millisecond: 66,
+          datetime: '13:52:03'
+        }
+      );
     });
   });
 })();

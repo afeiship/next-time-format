@@ -7,9 +7,11 @@ nx.timeFormat = function (inTimestamp) {
   const millisecond = parseInt(inTimestamp % 1000),
     second = Math.floor((inTimestamp / 1000) % 60),
     minute = Math.floor((inTimestamp / (1000 * 60)) % 60),
-    hour = Math.floor(inTimestamp / (1000 * 60 * 60));
+    hour = Math.floor(inTimestamp / (1000 * 60 * 60) % 24),
+    day = Math.floor(inTimestamp / (1000 * 60 * 60 * 24));
 
   return {
+    day,
     hour: hour,
     minute: minute,
     second: second,
